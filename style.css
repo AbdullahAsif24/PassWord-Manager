@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white; /* Bootstrap primary color */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0056b3; /* Slightly darker shade for the thumb */
+    border-radius: 6px;
+    border: 3px solid white; /* Match the scrollbar track color */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #004080; /* Darker shade on hover */
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+table,
+td,
+tr,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+.container {
+    max-width: 80vw;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 23px 0;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+i {
+    cursor: pointer;
+}
+
+#alertCopied {
+    display: none;
+    font-size: smaller;
+}
+
+.butn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+
+
+    .container>p {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    table {
+        font-size: 1rem;
+    }
+}
